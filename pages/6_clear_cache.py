@@ -1,5 +1,7 @@
 import streamlit as st
 
-st.runtime.legacy_caching.clear_cache()
+# Clear data caches (e.g., dataframes, queries)
 st.cache_data.clear()
+
+# Clear resource caches (e.g., database connections, ML models)
 st.cache_resource.clear()

@@ -6,7 +6,6 @@ streamlit==1.32.0
 PyPDF2
 pinecone-client==5.0.0
 pinecone==4.0.0
-langchain
 openai==0.28
 sendgrid
 markdown
@@ -15,4 +14,5 @@ mistune
 openpyxl
 plotly
 python-dotenv==1.0.1
-langchain
+langchain_community=0.4.2
+langchain_text_splitters=0.1.0
